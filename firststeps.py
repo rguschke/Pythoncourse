@@ -11,7 +11,7 @@ print "What is 3 + 2?" , 3 + 2
 print "What is 5 - 7?" , 5 - 7
 print "Oh, that's why it's false."
 print "How about some more?"
-print "is it greater?" , 5 > -2 
+print "is it greater?" , 5 > -2
 print "is it greater or equal?" ,  5 >= -2
 print "Is it less or equal?" , 5 <= -2
 print 7.0 / 4.0
@@ -41,22 +41,18 @@ print "we need to put" , average_passengers_per_car , "in each car"
 
 my_name = 'raphi'
 my_age = 34 #yes
-my_height = 174 #cm 
+my_height = 174 #cm
 my_weight = 72
 my_eyes = 'blue'
 my_teeth = 'white'
 my_hair = 'brown'
 
-print "Let's talk about %s." % my_name 
+print "Let's talk about %s." % my_name
 print "He is %d cm tall." % my_height
 print "he is %d heavy" % my_weight
 print "Not too heavy"
 print "He's got %s hair and %s eyes" % (my_hair, my_eyes)
 print "If i add %d, %d, and %d i get %d." % (my_age, my_height, my_weight, my_age + my_height + my_weight)
 
-print "test"
-
-
-
-
-
+print "test with string %r" % my_name 
+print "test with number %r" % my_height
