@@ -54,5 +54,7 @@ print "Not too heavy"
 print "He's got %s hair and %s eyes" % (my_hair, my_eyes)
 print "If i add %d, %d, and %d i get %d." % (my_age, my_height, my_weight, my_age + my_height + my_weight)
 
-print "test with string %r" % my_name 
+print "test with string %r" % my_name
 print "test with number %r" % my_height
+
+print "try to SSH the Github repository"
