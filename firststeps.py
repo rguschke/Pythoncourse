@@ -41,7 +41,7 @@ print "we need to put" , average_passengers_per_car , "in each car"
 
 my_name = 'raphi'
 my_age = 34 #yes
-my_height = '174 #cm' 
+my_height = 174 #cm 
 my_weight = 72
 my_eyes = 'blue'
 my_teeth = 'white'
@@ -53,6 +53,8 @@ print "he is %d heavy" % my_weight
 print "Not too heavy"
 print "He's got %s hair and %s eyes" % (my_hair, my_eyes)
 print "If i add %d, %d, and %d i get %d." % (my_age, my_height, my_weight, my_age + my_height + my_weight)
+
+print "test"
 
 
 
