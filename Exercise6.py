@@ -1,17 +1,22 @@
 # coding=utf-8
 print "exercise6"
-print "change in github"
 
+x = "There are %d types of people." % 10
+binary = "binary"
+do_not = "don't"
+y = "Those who know %s and those who %s." % (binary, do_not)
 
-#name = raw_input('What is your name? ')
+print x
+print y
 
-#print 'Your name is: ', name
+print "I said: %r." % x
+print "I also said: '%s'." % y
+hilarious = False
+joke_evaluation = "Isn't that joke so funny?! %r"
 
-a1 = raw_input ('a1 = ')
-a2 = raw_input ('a2 = ')
-#a3 = raw_input (Number3 = )
-#a4 = raw_input (Number4 = )
+print joke_evaluation % hilarious
 
+w = "This is the left side of..."
+e = "a string with a right side."
 
-
-print "what is a1+a2?", int(a1) - int(a2) 
+print w + e
