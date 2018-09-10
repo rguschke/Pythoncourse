@@ -14,4 +14,4 @@ x = int(raw_input())
 print "y"
 y = int(raw_input ())
 
-# check   print " %r x + %r y ", % (x, y)
+#print "x + y",
